@@ -44,7 +44,6 @@ Here's a visual example. Colors on a computer screen can be represented by vario
 In order to encode the maximum amount of information into a pixel without changing it too much, I've chosen to discard the 4 least significant bits. So, to hide one image inside another, I take the 4 **most** significant bits of the cover image and the 4 **most** significant bits of the hidden image. I shift the 4 bits from the hidden image to the position of the **least** significant bits, and merge them with the 4 bits from the cover image. And, voilà!, the cover image hasn't appeared to have changed at all but it now contains the information necessary to reconstruct the hidden image.
 Here's an animation showing the process:
 
-[Steganography animation on Vimeo](https://vimeo.com/275159081)
 
 
 
